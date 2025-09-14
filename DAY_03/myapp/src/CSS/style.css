@@ -1,0 +1,40 @@
+.fbgstyle{
+    background-color: #244875;
+    height: 100px;
+    padding: 25px;
+    
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -300px;
+    margin-left: -50px;
+}
+
+.header{
+    margin-left: 125px;
+}
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
