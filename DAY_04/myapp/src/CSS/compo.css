@@ -1,0 +1,40 @@
+.outerDiv {
+  background-color: #49bbf3;
+  color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;   /* ✅ instead of absolute */
+  width: 100%;          /* ✅ stretch across */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;   /* ✅ keeps gallery compact in center */
+  margin: 0 auto;     /* ✅ center the gallery */
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  color: #000;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
